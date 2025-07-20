@@ -1,0 +1,154 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #83ffff 60%, #e0e7ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0; /* Remove or reduce padding */
+}
+
+.container {
+  background-color: #fff;
+  padding: 32px 16px 28px 16px; /* reduced left/right padding */
+  border-radius: 16px;
+  width: 370px;
+  box-shadow: 0 8px 24px rgba(60, 72, 88, 0.13);
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #3a3a3a;
+  letter-spacing: 1px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 22px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-section input[type="text"],
+.input-section input[type="date"],
+.input-section button {
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.input-section input[type="text"],
+.input-section input[type="date"] {
+  flex: 1 1 0;
+}
+
+input[type="text"],
+input[type="date"] {
+  flex: 1 1 0;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+  border: 1.5px solid #6366f1;
+}
+
+button {
+  flex-shrink: 0;
+  height: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  background: linear-gradient(90deg, #6366f1 60%, #818cf8 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
+}
+
+button:hover {
+  background: linear-gradient(90deg, #4f46e5 60%, #6366f1 100%);
+}
+
+li {
+  padding: 12px 10px;
+  background-color: #f3f4f6;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 7px;
+  box-shadow: 0 1px 4px rgba(60, 72, 88, 0.06);
+  transition: background 0.2s;
+}
+
+li:hover {
+  background-color: #e0e7ff;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+  background-color: #e5e7eb;
+}
+
+.delete-btn {x;
+  background-color: #ef4444;
+  color: white; cursor: pointer;
+  border: none;  transition: background 0.2s;
+
+
+
+
+
+}  border-radius: 4px;  padding: 2px 7px;  padding: 5px 10px;}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
+
+.deadline {
+  color: #6366f1;
+  font-size: 13px;
+  margin-left: 8px;
+  font-style: italic;
+  background: #eef2ff;
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+input[type="date"] {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.deadline.expired {
+  color: #b91c1c;
+  background: #fee2e2;
+  font-weight: bold;
+}
+
+.deadline.due-today {
+  color: #d97706;
+  background: #fef3c7;
+  font-weight: bold;
+}
