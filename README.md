@@ -18,9 +18,15 @@ A clean and efficient task manager built using **HTML, CSS, and JavaScript**. It
 ## 📂 Folder Structure
 
 todo-app/
-├── index.html # Main HTML structure
-├── style.css # UI styling
-└── script.js # App logic (JS)
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── screenshots/
+    ├── empty.png
+    ├── with-tasks.png
+    └── completed.png
+
 
 
 ---
@@ -32,13 +38,17 @@ todo-app/
 - Vanilla JavaScript
 - Browser `localStorage`
 
----
-
 ## 📸 Screenshots
 
-*(Add if possible. Suggestion: take 1 normal view, 1 with a task completed, and 1 mobile view)*
+### 📥 Empty State (no tasks)
+![Empty State](screenshots/empty.png)
 
----
+### 📝 Task List
+![With Tasks](screenshots/with-tasks.png)
+
+### ✅ Completed Task
+![Completed Task](screenshots/completed.png)
+
 
 ## 🌐 Live Demo
 
