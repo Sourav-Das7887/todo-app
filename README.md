@@ -52,7 +52,7 @@ todo-app/
 
 ## 🌐 Live Demo
 
-👉 [Click here to view the app]([https://your-username.github.io/todo-app/](https://sourav-das7887.github.io/todo-app/])  
+👉 [Click here to view the app](https://your-username.github.io/todo-app/)
 
 ---
 
